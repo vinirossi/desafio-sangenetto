@@ -84,27 +84,42 @@ main {
 /* CSS DOS CARDS DE NOTICIA */ 
 .card {
     box-sizing: border-box;
-    width: 250px;
-    height: 350px;
+    width: 260px;
+    height: 330px;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 5px;
+    margin: 0 20px 0 20px;
 }
 .card img{
     border-radius: 5px 5px 0 0;
-    width: 250px;
+    width: 260px;
+}
+.teste {
+    justify-content: space-around;
+}
+.card-information {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #72a3d4;
+    
+}
+.data-title, .text-information {
+    color: #a9a9a9;
+    margin: 5px 0 5px 0;
+}
+.title-information {
+    font-size: 15px;
+} 
+.text-information {
+    text-transform: none;
+}  
+.title-signature {
+    font-size: 12px;
+    font-weight: bold;
 }
 
-.card-information h1 {
-    color: #72a3d4;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-} 
-.box-noticias p {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
 
 
 
