@@ -79,31 +79,44 @@
 main {
     background-color: #f2eff2;
     margin: 0;
-    height: 100vh;
+    height: auto;
 }
 /* CSS DOS CARDS DE NOTICIA */ 
-.card {
+.card-large {
+    box-sizing: border-box;
+    width: 410px;
+    height: 410px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.card-medium {
     box-sizing: border-box;
     width: 260px;
     height: 330px;
     background-color: #fff;
     border-radius: 5px;
-    margin: 0 20px 0 20px;
+    margin: 10px 20px 10px 20px;
 }
-.card img{
+.image-large {
+    border-radius: 5px 5px 0 0;
+    width: 410px;
+}
+.image-medium{
     border-radius: 5px 5px 0 0;
     width: 260px;
 }
 .teste {
+    flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .card-information {
     font-size: 15px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: #72a3d4;
-    
 }
 .data-title, .text-information {
     color: #a9a9a9;
