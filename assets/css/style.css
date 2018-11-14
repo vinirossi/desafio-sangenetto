@@ -85,7 +85,7 @@ main {
 .card {
     box-sizing: border-box;
     width: 250px;
-    height: 300px;
+    height: 350px;
     background-color: #fff;
     border-radius: 20px;
 }
@@ -94,11 +94,12 @@ main {
     width: 250px;
 }
 
-.card-information {
+.card-information h1 {
     color: #72a3d4;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 } 
 .box-noticias p {
     text-align: center;
