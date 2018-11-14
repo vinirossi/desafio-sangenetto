@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 /* CSS HEADER */
 .header {
@@ -51,6 +52,7 @@
 .icon-search {
     background-color: transparent;
     border: 0;
+    cursor: pointer;
 }
 /* CSS DO NAV */ 
 .nav {
@@ -74,7 +76,7 @@
     color: #72a3d4;
     font-size: 15px;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', sans-serif;
 }
 main {
     background-color: #f2eff2;
@@ -114,7 +116,6 @@ main {
 .card-information {
     font-size: 15px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: #72a3d4;
 }
@@ -132,6 +133,31 @@ main {
     font-size: 12px;
     font-weight: bold;
 }
+
+/* CSS DO NÚMERO DA PÁGINA*/
+.number-pages {
+    box-sizing: border-box;
+    height: 100px;
+    align-items: center;
+    margin: 40px 0 40px 0;
+} 
+.btn-style, .btn-style-blue {
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;  
+    color: #d6d5d6;
+    font-size: 20px;
+    margin: 0 15px 0 15px;
+    cursor: pointer;
+}
+.btn-style-blue {
+    color: #fff;
+    background-color: #7ca3d2;
+}
+
 
 
 
