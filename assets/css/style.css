@@ -148,7 +148,7 @@ main {
     border-radius: 50px;
     width: 80px;
     height: 80px;  
-    color: #d6d5d6;
+    color: #bbb9bb;
     font-size: 20px;
     margin: 0 15px 0 15px;
     cursor: pointer;
@@ -156,6 +156,20 @@ main {
 .btn-style-blue {
     color: #fff;
     background-color: #7ca3d2;
+}
+.btn-style:hover {
+    color: #fff;
+    background-color: rgba(50, 50, 50, 0.6);
+}
+.btn-style-blue:hover {
+    color: #000;
+    background-color: rgb(255, 255, 255, 0.6);
+}
+
+/* CSS DO FOOTER */
+.footer {
+    background-color: #fff;
+    padding: 20px 0;
 }
 
 
