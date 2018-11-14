@@ -1,28 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
 * {
     box-sizing: border-box;
 }
-
 .header {
     background-color: #f2eff2;
-    border: 1px solid red;
     padding: 8px 0;
 }
-
 .container {
-    border: 1px solid blue;
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
     position: relative;
 }
-
-.logo {
-    border: 1px solid yellow;
+.center {
+    justify-content: center;
 }
-
 .search {
     position: absolute;
     right: 0;
@@ -33,26 +28,81 @@
     display: inline-flex;
     align-items: center;
 }
-
+@media screen and (max-width: 750px) {
+    .search {
+        background-color: transparent;
+        box-shadow: none;
+    }
+}
 .box-search {
     border: 0;
     width: 210px;
     outline: none;
     text-indent: 10px;
 }
-
-.icon-search {
-    background-color: transparent;
-    border: 0;
-}
-
 @media screen and (max-width: 750px) {
     .box-search {
         display: none;
     }
-    .search {
-        background-color: transparent;
-        box-shadow: none;
-    }
 }
+.icon-search {
+    background-color: transparent;
+    border: 0;
+}
+.nav {
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+}
+.nav-list {
+    box-sizing: border-box;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding: 15px 0;
+    margin: 0;
+    justify-content: space-around;
+    width: 100%;
+    color: #72a3d4;
+    font-size: 15px;
+}
+.text-nav-list a{
+    text-transform: uppercase;
+    color: #72a3d4;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    background-color: #f2eff2;
+    margin: 0;
+}
+.box-noticias {
+    box-sizing: border-box;
+    width: 36%;
+    background-color: #fff;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.box-noticias img{
+    justify-content: space-around;
+    width: 100%;
+    height: 220px;
+}
+
+.info-box-noticias {
+    color: #72a3d4;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+} 
+.box-noticias p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
 
